@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <Servo.h>
-
 int myFunction(int, int);
 
 void setup() {
@@ -8,10 +7,8 @@ void setup() {
 }
 
 void loop() {
-  
 }
 
-// put function definitions here:
 int myFunction(int x, int y) {
   return x + y;
 }
