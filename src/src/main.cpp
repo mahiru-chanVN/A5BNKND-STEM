@@ -1,14 +1,11 @@
 #include <Arduino.h>
 #include <Servo.h>
-int myFunction(int, int);
+#include<./PS2X_lib.h>
+typedef long long ll;
 
 void setup() {
-  int result = myFunction(2, 3);
 }
 
 void loop() {
 }
 
-int myFunction(int x, int y) {
-  return x + y;
-}
